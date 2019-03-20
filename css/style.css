@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+#hero{
+	background-image: url(../img/slide-1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 180px 0;
+}
+
+#hero h1{
+	color: #ff9506;
+}
+
+#sec-slides h1{
+	color: #ff9506;
+}
+
+.btn-rectangulo{
+	background-color: transparent;
+	border:2px solid #ff9506;
+	border-radius:4;
+	padding: 10px 20px;
+	color: #ff9506;
+	font-weight: 600;
+}
+
+#sec-services{
+	text-align: center;
+	padding: 120px 0;
+}
+
+.foto{
+	position: relative;
+	overflow: hidden;
+}
+.overlay{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 90%;
+	padding: 30px 20px;
+	background-color: rgba(0,0,0,0.70);
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.foto:hover .overlay{
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+	transform: translate(5%,0,0)
+}
+
+.foto:hover img{
+	transition: all 0.3s ease-in-out;
+	transform: scale(1.06);
+}
+
+#logos{
+
+	padding: 50px 0;
+}
+
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: white;
+    border: 0 !important;
+}
+
+footer{
+	padding: 20px;
+	background-color: #2743c0;
+	text-align: center;
+	color: #fff;
+}
+
+
+#sec-gallery{
+	padding: 20px;
+	background-color: #2743c0;
+	text-align: center;
+	color: #fff;
+}
+
+#titulo{
+	background-color: #2743c0;
+	padding: 20px 0;
+}
+#titulo h2{
+	color: #ff9506;
+	text-align: center;
+}
+#titulo p{
+	color: #fff;
+	text-align: center;
+}
+
+#sec-gallery{
+	padding: 20px 0;
+}
+
+#titulo2{
+	text-align: center;
+}
+
+#titulo2 h2{
+	color: #2743c0;
+}
+
+#welcome{
+	padding: 80px 0;
+}
+
+#titulo3{
+	text-align: center;
+}
+
+#titulo3 h2{
+	color: #2743c0;
+	padding-top: 20px;
+}
+
+#sec-services .fas{
+	text-align: center;
+}
+
+#sec-clients h2{
+	text-align: center;
+	color: #2743c0;
+}
+
+#sec-clients{
+	padding: 20px 0;
+}
+
+.titulo::after{
+	content: '';
+	height: 2px;
+	background-color:#2743c0;
+	width: 100px;
+	display:block;
+	margin: 10px auto;
+}
